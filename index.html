@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- SEARCH -->
+  <div class="search-bar">
+    <input id="searchInput" placeholder="Search city..." />
+    <button id="searchBtn">🔍</button>
+    <button id="locBtn">📍</button>
+  </div>
+
+  <!-- LOCATION + TIME -->
+<div class="location">
+  <h1 id="city">—</h1>
+  <p id="country">—</p>
+  <p class="time" id="time">--:--</p>
+</div>
+
+<!-- CURRENT -->
+<div class="current">
+  <div class="temp">
+    <span id="temp">--</span>°
+  </div>
+  <p id="condition">—</p>
+  <small>
+    Max <span id="max">--</span>° ·
+    Min <span id="min">--</span>°
+  </small>
+</div>
+
+<!-- DETAILS -->
+<div class="details">
+  <div class="detail">
+    <span>Humidity</span>
+    <strong id="humidity">--%</strong>
+  </div>
+  <div class="detail">
+    <span>Wind</span>
+    <strong id="wind">-- km/h</strong>
+  </div>
+  <div class="detail">
+    <span>UV Index</span>
+    <strong id="uv">--</strong>
+  </div>
+  <div class="detail">
+    <span>Sunrise</span>
+    <strong id="sunrise">--</strong>
+  </div>
+  <div class="smart">
+  <p id="alert" class="alert"></p>
+  <p id="advice" class="advice"></p>
+  <p id="status" class="status"></p>
+</div>
+</div>
+</div>
+<script type="module" src="script.js"></script>
+</body>
+</html>
