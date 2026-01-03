@@ -60,4 +60,52 @@ This project is designed as a **portfolio showcase** for frontend developer role
 ---
 
 ## 🚀 Live Demo
+https://reffkiandreapratama.github.io/WeatherApp/
+
+
+---
+
+## ⚙️ How to Run Locally
+
+1. Clone this repository:
+   ```bash
+   git clone https://reffkiandreapratama.github.io/WeatherApp/
+2. Open the project folder:
+    cd weather-app
+3. Open index.html using a local server
+    (recommended to avoid module import issues):
+   npx serve
+🧠 What I Learned
+
+Working with external APIs and asynchronous JavaScript
+
+Handling network instability with retry & abort patterns
+
+Implementing offline-first behavior using localStorage
+
+Managing UI states (loading, success, offline)
+
+Using ES Modules to organize JavaScript code
+
+Building responsive, mobile-first interfaces without frameworks
+
+Improving UX with micro-interactions and dynamic theming
+
+📌 Notes
+
+This project intentionally avoids frameworks to demonstrate core JavaScript mastery
+
+Designed to simulate real-world frontend application behavior
+
+Suitable for Junior to Mid-level Frontend Developer portfolios
+👤 Author
+
+Your Name
+Frontend Developer
+
+GitHub: https://github.com/ReffkiAndreaPratama/
+
+Portfolio: https://reffkiandreapratama.github.io/Portofolio-v1/
+
+
 
